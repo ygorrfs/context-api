@@ -1,0 +1,56 @@
+:root {
+    --background-color-light: #fff;
+    --background-color-dark: #000;
+    --text-color-light: #000;
+    --text-color-dark: #fff;
+    --border-color-light: #000;
+    --border-color-dark: #fff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.sign-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vh;
+}
+
+.input {
+    border: 2px solid var(--border-color);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 10px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.button {
+    background-color: #000; 
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+
+.button.light {
+    background-color: #fff; 
+    color: #000; 
+}
+
+.button.dark {
+    background-color: #000; 
+    color: #fff; 
+}
+
+
